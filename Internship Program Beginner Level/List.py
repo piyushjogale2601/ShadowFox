@@ -1,0 +1,21 @@
+justice_league = ["Superman", "Batman", "Wonder Woman", "Flash", "Aquaman", "Green Lantern"]
+print("The length of the list is :",len(justice_league))
+justice_league.extend(["Batgirl","Nightwing"])
+print("Updated list after adding batgirl and nightwing:")
+print(justice_league)
+justice_league.remove("Wonder Woman")
+justice_league.insert(0,"Wonder Woman")
+print("updated list after moving wonder woman to the beginning")
+print(justice_league)
+justice_league.remove("Green Lantern")
+justice_league.insert(justice_league.index("Aquaman")+1,"Green Lantern")
+print("Updated list after separating Aquaman and Flash with Green Lantern:")
+print(justice_league)
+justice_league = ["Cyborg", "Shazam", "Hawkgirl", "Martian Manhunter", "Green Arrow"]
+print("New Justice League team:")
+print(justice_league)
+justice_league.sort()
+print("Sorted Justice League team alphabetically:")
+print(justice_league)
+print("The new leader is ",justice_league[0])
+
